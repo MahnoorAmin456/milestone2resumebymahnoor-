@@ -63,7 +63,19 @@ input,textarea {
     margin-top: 10px;
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
+
+
+    .ProfilePicture {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid rgb(255, 242, 254)  ;
+        box-shadow: 0 4px 8px rgba(255, 255, 255);
+        border-radius:  500%;
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    
  }
 
  
- 
+}
